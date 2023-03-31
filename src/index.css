@@ -11,3 +11,117 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Styling for the main app container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Styling for the form and QR code container */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.qr-code-container {
+  margin-top: 20px;
+}
+
+/* Styling for form labels and inputs */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Styling for buttons */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  background-color: #005FD7;
+  color:#ffffff74;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005FD7;
+}
+
+/* Styling for the QR code scanner */
+.qr-scanner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.video-container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-text {
+  color: #fff;
+  font-size: 24px;
+}
+
+/* Styling for the location display */
+.location-container {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.location-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.location-info {
+  margin-left: 10px;
+}
+.qr-code-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
