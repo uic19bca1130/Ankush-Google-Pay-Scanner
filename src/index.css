@@ -124,4 +124,10 @@ video {
   display: flex;
   justify-content: center;
 }
+.qr-code-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
 
