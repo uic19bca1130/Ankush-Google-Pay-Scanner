@@ -72,3 +72,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 "# Ankush-google-pay-QR-scanner" 
 "# Ankush-google-pay-QR-scanner" 
 "# All-QRs-Googlepay-Location-Details" 
+"# All-QRs-Googlepay-Location-Details" 
